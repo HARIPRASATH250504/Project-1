@@ -1,0 +1,77 @@
+body{
+
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(img/bg.png);
+}
+.head{
+    width:500px;
+    Margin: 30px;
+    background-color:rgba(0,0,0,.5);
+    color:rgb(177, 174, 8);
+    padding:10px 25px 30px;
+    margin:200px auto;
+    font-size: 25px;
+
+}
+.head h2{
+    text-align: center;
+    color: aqua;
+    
+}
+.input label{
+    display:block;
+}
+.input input{
+    width: 100%;
+    font-size:.7em;
+    border:.5px solid bisque;
+    box-shadow: 5px;
+    border-radius:5px;
+    padding:4px 6px 4px;
+    box-sizing: border-box;
+    margin:2px 0 1em;
+}
+.textinput input{
+    font-size:.7em;
+    padding:4px 6px 4px;
+    margin:2px 1em 1em;
+}
+.button{
+    text-align:center;
+    font-size:2em;
+}
+button{
+    background-color: bisque;
+    font-size:20px;
+    border:.5 solid brown;
+    box-shadow:5px;
+    border-radius:5px;
+    padding:4px 6px 4px;
+    color:green;
+
+}
+button:focus{
+    color:red;
+
+}
+button:active{
+    color:blue;
+}
+.radio input{
+    accent-color:rgb(130, 23, 183);
+    transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    padding:4px 6px 4px;
+
+}
+.radio label{
+    padding:4px 6px 4px;
+}
+button:hover{
+    background-color: green;
+    color:black;
+    box-shadow: 0 0 0 1px;
+    -webkit-box-reflect:below 1px linear-gadient(transparant,#000) ;
+      
+}
